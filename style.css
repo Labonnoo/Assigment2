@@ -1,0 +1,129 @@
+.logo img{
+    width: 200px;
+    height: 40px;
+}
+.top-head{
+   
+    font-weight: 700;
+    height: 100px;
+    letter-spacing: -2px;
+    line-height: 1;
+    color: orange;
+
+}
+p{
+    color: rgb(105, 105, 136);
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.button img{
+     width: 30px;
+}
+.button{
+    border: none;
+    background-image: linear-gradient(180deg,rgb(40, 233, 175), rgb(13, 190, 161), rgb(58, 153, 120));
+   padding: 10px;
+   border-radius: 10px;
+   width: 150px;
+   color: white;
+}
+.highlite{
+    color: rgb(36, 36, 100);
+    letter-spacing: -2px;
+    
+    font-weight: 700;
+}
+.image img{
+    height: 220px;
+    width: 200px;
+    
+    
+    
+}
+.image{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lavender;
+    border-radius: 10px;
+    margin: 10px 50px ;
+    height: 300px;
+    
+  
+}
+ 
+ 
+ .image-card{
+     height: 500px;
+     margin-bottom: 40px;  
+ }
+ .body-card{
+    margin-left: 40px ;
+   margin-right: 40px;
+ }
+ .last-sec{
+     height: 100px;
+     box-shadow:.5px .0 20px rgb(219, 218, 218);
+     margin: 10px;
+    border-radius: 10px;
+ }
+ 
+ .last-part img{
+     width: 100%;
+ }
+ .last-sec img{
+    height: 70px;
+    width: 70px;
+    margin: 20px;
+ }
+ .padd{
+     padding-left: 20px;
+     padding-top: 5px;
+     letter-spacing: -2px;
+ }
+
+.contact-sec{
+    height: 400px;
+    background-color:  rgb(27, 27, 27);
+   
+}
+
+.white{
+    text-align: center;
+    color: rgb(209, 194, 194);
+    padding-top: 100px;
+}
+.whites{
+    color: rgb(168, 159, 159);
+    text-align: center;
+}
+.con-us{
+    margin-left: 300px;
+}
+.width{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+ @media (max-width:990px){
+     .bganing-part{
+       display: flex;
+       justify-content: center;
+     }
+     .ending-part{
+         height: 200px;
+         
+         display: flex;
+         flex-direction: column;
+         
+         justify-content: center;
+         text-align: center;
+     }
+     
+ }
